@@ -1,0 +1,43 @@
+section{
+	text-align: center;
+	margin-top: 200px;
+}
+
+.text{
+	margin: 10px 0px;
+	font-size: 1.5em;
+}
+
+.name:hover{
+	cursor: pointer;
+	transition: 1s;
+	color: #007be8;
+	text-shadow: 1px 1px #000000a6;
+}
+
+.post:before, .post:after{
+	content: '';
+   display: block;
+   height: 1px;
+   background: #3b9b13;
+   width: 0px; 
+   margin: 0 auto; 
+	transition: 1s; 
+}
+.post:hover:before, .post:hover:after{
+	width: 600px;
+	transition: ease-out 1s;
+}
+.post:hover{
+	cursor: pointer;
+	transition: 1s;
+	color: #234b13;
+}
+
+._active{
+	color: #ffffff00;
+}
+
+._remove{
+	display: none;
+}
