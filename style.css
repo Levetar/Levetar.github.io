@@ -24,10 +24,12 @@ section{
    margin: 0 auto; 
 	transition: 1s; 
 }
+
 .post:hover:before, .post:hover:after{
 	width: 600px;
 	transition: ease-out 1s;
 }
+
 .post:hover{
 	cursor: pointer;
 	transition: 1s;
@@ -38,6 +40,6 @@ section{
 	color: #ffffff00;
 }
 
-._remove{
+._remove {
 	display: none;
 }
